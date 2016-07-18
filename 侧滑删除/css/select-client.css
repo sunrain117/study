@@ -1,0 +1,91 @@
+body{
+    background:#f2f2f2;
+    /*padding-top:2.35rem;*/
+    padding-top:48px;
+    padding-bottom:4.45rem;
+}
+.ml25{margin-left:1.25rem;}
+.mt20{margin-top:0.5rem;}
+.red{color:#FB5B3F;}
+.sales-header{
+    position:fixed;
+    border-bottom:1px solid #cccccc;
+}
+span.icon-fanhui{color:#272727;}
+
+.order-item{background:#ffffff;margin-top:0.5rem;padding:.5rem 0.75rem;border-bottom:1px solid #cccccc;border-top:1px solid #cccccc;}
+.order-item .order-info{position: relative;}
+.order-item .order-info p{font-size:0.7rem;line-height: 25px;overflow: hidden;}
+.order-item .order-info p span{float: left;}
+.order-item .order-info p span.title{color:#272727;}
+.order-item .order-info p span.content{color:#808080;}
+.order-item .order-info .icon-right{position:absolute;right:0.5rem;top:0.8rem;color:#808080;}
+
+/*search*/
+.search{height:3rem;border-bottom:1px solid #cccccc;background:white;position:relative;}
+.search .search-icon{background:url(http://img.youxinpai.com/sales_cowry/images/search.png) no-repeat center center;position:absolute;left:0;top:0;display: block;height:1.8rem;width:1.8rem;background-size:1rem 1rem;margin-top:0.6rem;margin-left:0.6rem;}
+.search .txt-search{width:13.5rem;height:1.8rem;margin:0.6rem;border-radius:5px;padding-left:2rem;background-size:7%;font-size:0.7rem;}
+.btn-search{width:3rem;height:1.75rem;color:white;background-color:#fb5b3f;font-size:0.7rem;}
+.btn-search:active{ color: #fff;background-color: #c0392b;}
+
+
+.order-item-empty{
+    height:100%;
+    background-color:#ffffff;
+}
+.order-item-empty .item-empty-wrap{padding-top:5.5rem; }
+.order-item-empty .item-empty-wrap img{display: block; width:5rem;margin: 0 auto; }
+.order-item-empty .item-empty-wrap p{font-size:0.85rem; text-align: center; color:#000;line-height:1.45rem;font-weight: 100;}
+
+
+/*弹出层*/
+#select_client_mark{display: none;}
+.select-client-pop{width:15rem;color:#272727;position:fixed;left:50%;top:50%;margin-left:-7.5rem;margin-top: -6.625rem; z-index: 100;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    /*overflow: hidden;*/
+    background:#fff;
+    padding-top:1.25rem;
+    display: none;
+}
+.select-client-pop .select-title-wrap{padding:0 1.25rem;background:#fff url(http://img.youxinpai.com/sales_cowry/images/select_client_pop_icon.png) no-repeat 1.25rem top;height:3rem;background-size:2.9rem 3rem;}
+.select-client-pop .select-title-wrap p{padding-left:4rem;height:3rem;line-height:3rem;}
+.select-client-pop .select-title-wrap p.title{font-size:1.4rem;color:#ff5e3c;overflow: hidden;}
+
+.select-client-pop .select-content-wrap{padding:0 1.25rem;background:#ffffff;margin-top:0.75rem;font-size:0.75rem;color:#272727;}
+.select-client-pop .select-content-wrap p{font-size:0.75rem;color:#272727;}
+.select-client-pop .select-con-item li{overflow: hidden;line-height:1.25rem; }
+.select-client-pop .select-con-item span{display: block;float: left; }
+.select-client-pop .select-con-item span.name{width:2.5rem;text-align: right; }
+.select-client-pop .select-con-item span.content{margin-left:0.5rem; }
+.select-client-pop .select-con-item{color:#272727;font-size:0.7rem;  }
+.select-client-pop .select-con-item li{line-height:1.125rem;}
+.select-client-pop .select-btn-wrap{background:#ffffff;
+    -webkit-border-radius: 0 0 0.5rem 0.5rem;
+    -moz-border-radius: 0 0 0.5rem 0.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+.select-client-pop .select-btn-wrap{margin-top:0.75rem;}
+.select-client-pop .select-btn-wrap li{height:3rem;position:relative;overflow: hidden;display: -webkit-flex;justify-content: center;align-items: center;}
+.select-client-pop .select-btn-wrap li .roundbg{
+    position:absolute;
+    left:50%;
+    top:0;
+    margin-left:-25rem;
+    width:50rem;height:50rem;background:#ff5e3c;
+    -webkit-border-radius: 50rem;
+    -moz-border-radius: 50rem;
+    border-radius: 50rem;
+}
+.select-client-pop .select-btn-wrap.col2 li{float:left;width:50%}
+.select-client-pop button{background-color:transparent;border:none;display: block;height:100%;width:100%;font-size:0.85rem;color:#ffffff;font-weight: 100;width:6.85rem;height:1.5rem;line-height:1.5rem; border:1px solid #fff;padding:0;margin:0;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    border-radius: 1.5rem;}
+.select-client-pop .close-btn{position: absolute;right:0.5rem;top:-3rem;color:#ffffff;font-size:1.5rem;font-weight: 100;}
+.select-client-pop .close-btn:after{content: '';border-left:2px solid #ffffff;position:absolute;    bottom: -1rem;
+    height: 1.5rem;
+    left: 0.7rem}
+
+.footer-btn-box.item-empty-btn{background:#fff;border:none;}

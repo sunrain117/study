@@ -1,0 +1,93 @@
+#scroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 100%;
+}
+
+
+/**
+ *
+ * Pull down styles
+ *
+ */
+
+#pullDown,
+#pullUp {
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+    padding: 0.7rem 0;
+    font-size: 12px;
+    color: #888585;
+}
+
+#pullUp {
+    /* margin-top: 20px; */
+}
+
+#pullDown .pullDownIcon,
+#pullUp .pullUpIcon {
+    display: block;
+    margin-right: 15px;
+    float: left;
+    width: 24px;
+    height: 24px;
+    background: url(../images/pull-icon@2x.png) no-repeat center;
+    -webkit-background-size: 24px 48px;
+    background-size: 24px 48px;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 250ms;
+}
+
+.pull-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#pullDown .pullDownIcon {
+    -webkit-transform: rotate(0deg) translateZ(0);
+    background-position: 0 0;
+}
+
+#pullUp .pullUpIcon {
+    -webkit-transform: rotate(-180deg) translateZ(0);
+    background-position: 0 0;
+}
+
+#pullDown.flip .pullDownIcon {
+    -webkit-transform: rotate(-180deg) translateZ(0);
+}
+
+#pullUp.flip .pullUpIcon {
+    -webkit-transform: rotate(0deg) translateZ(0);
+}
+
+#pullDown.loading .pullDownIcon,
+#pullUp.loading .pullUpIcon {
+    background-position: 0 100%;
+    -webkit-transform: rotate(0deg) translateZ(0);
+    -webkit-transition-duration: 0ms;
+    -webkit-animation-name: loading;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes loading {
+    from {
+        -webkit-transform: rotate(0deg) translateZ(0);
+    }
+    to {
+        -webkit-transform: rotate(360deg) translateZ(0);
+    }
+}
+
+#pullUp .pullUpIcon.hide {
+    display: none
+}

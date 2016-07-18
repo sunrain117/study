@@ -1,0 +1,208 @@
+.user-info-box {
+    height: 3.6rem;
+    background: #ff5a37;
+    padding: 0.7rem;
+    color: #fff;
+}
+
+.user-info-box .user-header {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 1.125rem;
+    background: #ddd;
+}
+
+.user-info-box .user-header img {
+    display: block;
+    width: 100%;
+}
+
+.user-info-box .name {
+    font-size: 13px;
+    padding-top: 0.1rem;
+}
+
+.user-info-box .user-info-name {
+    margin-left: 0.75rem;
+}
+
+.my-box .aui-tab {
+    /*height: 2.2rem;*/
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 5.9rem;
+    z-index: 5;
+    background: #ffffff;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.20);
+}
+
+.my-box .aui-tab .line {
+    width: 3px;
+    color: #ddd;
+    margin: 0;
+}
+
+.my-box .aui-tab-nav li {
+    font-size: 13px;
+    margin: 0 .7rem;
+}
+
+.my-box .aui-tab-nav li a {
+    color: #666;
+}
+
+.my-box .aui-tab-nav li.active {
+    color: #ff5a37;
+    border-bottom: #ff5a37 solid 0.2rem;
+}
+
+.my-box .aui-tab-nav li.active a {
+    color: #ff5a37;
+    display: block;
+}
+
+.my-box .my-list {
+    padding: 0;
+}
+
+.my-box .aui-img-body {
+    padding-left: .4rem;
+    color: #8f8f94;
+}
+
+.my-box .list-title {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000;
+    font-size: .8rem;
+    line-height: 1.3rem;
+    padding-bottom: .1rem;
+}
+
+.my-box .my-list-img-box {
+    width: 4.5rem;
+    height: 3.5rem;
+    position: relative;
+}
+
+.my-box .timer-span .timer {
+    float: left;
+    color: #ff5a37;
+    text-align: center;
+}
+ 
+.second {
+    width: 1rem;
+    height: 1rem;
+}
+
+.second {
+    width: 1rem;
+    height: 1rem;
+}
+
+.my-box .timer-span .icon-shijian:before {
+    padding-top: 2px;
+    display: block;
+    box-sizing: border-box;
+    height: 1rem;
+}
+
+.my-box .timer-span .text {
+    color: #8f8f94;
+}
+
+.my-box .my-list-img-text {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 14px;
+    line-height: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.my-box ul.aui-list-view {
+    padding: 0.5rem;
+}
+
+.my-box .aui-list-view-cell {
+    padding: .4rem 0rem;
+    border-bottom: 1px solid #c8c7cc;
+}
+
+.my-box .aui-list-view-cell:after {
+    border: 0;
+}
+
+.aui-list-view-cell:last-child:after {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.my-box .aui-list-view>a {
+    display: block;
+    -webkit-user-select: none;
+}
+
+.my-box .aui-list-view>a:active {
+    background: #f4f4f4;
+}
+
+.my-box .my-list-img-box img {
+    display: block;
+    width: 100%;
+}
+
+.my-box .list-p-2 {
+    font-size: .7rem;
+    line-height: 1rem;
+    padding-bottom: .1rem;
+}
+
+.my-box .list-p-3 {
+    font-size: .7rem;
+    line-height: 1rem;
+}
+
+.my-box .aui-list-view:after {
+    content: "";
+    border: 0px;
+}
+
+.my-box .img-tag {
+    text-align: center;
+    margin-top: 9rem;
+}
+
+.my-box .img-tag .icon-gouwuche {
+    font-size: 3rem;
+    color: #ff5a37;
+    display: block;
+}
+
+.my-box .img-tag .img-title {
+    font-size: 13px;
+    color: #ff5a37;
+    display: block;
+}
+
+#header {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    height: 8.3rem;
+}
+
+#content {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 8rem;
+    bottom: 0px;
+}

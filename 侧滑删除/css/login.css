@@ -1,0 +1,115 @@
+body {
+    background: #fff;
+    height: auto;
+}
+
+.login-box .login-logo {
+    text-align: center;
+    width: 6rem;
+    margin: 4.75rem auto 2rem;
+}
+
+.login-box .login-logo img {
+    display: block;
+    width: 100%;
+}
+
+.login-box .login-title {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 17px;
+    color: #ff5a37;
+}
+
+.login-box .login-form {
+    margin-top: 1.65rem;
+    padding: 0px 2.85rem;
+    position: relative;
+}
+
+.login-box .login-form .input-row {
+    position: relative;
+}
+
+.login-box .login-form .input-row input {
+    font-size: 13px;
+    line-height: normal;
+    padding-left: 0.8rem;
+    border: 0px;
+    border-radius: 4px;
+    background: #f4f4f4;
+    color: #666;
+}
+
+.input-row .tag {
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    display: block;
+    text-align: right;
+    padding-right: 0.5rem;
+    color: #ff5a37;
+    height: 2rem;
+    line-height: 2rem;
+    width: 3rem;
+}
+
+.login-box .login-form .error-row {
+    position: relative;
+    font-size: 13px;
+    color: #ff5a37;
+    text-align: left;
+}
+
+
+
+.login-box .login-form .btn-row {
+    margin-top: 6.25rem;
+}
+
+.login-box .login-form .btn-login {
+    width: 100%;
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 0.55rem 0;
+    background: #ff5a37;
+    border: 0;
+    border-radius: 0.2rem;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    transition: background 0.3s;
+}
+
+.login-box .login-form .btn-login:active {
+    color: #fff;
+    background-color: #c0392b;
+}
+
+.login-box .remember-pwd{margin-top:0.75rem;overflow: hidden;}
+.login-box .remember-pwd label,.login-box .remember-pwd input{margin:0;padding:0;}
+.login-box .remember-pwd .remember-con{font-size:0.75rem;color:#272727;margin-left:0.5rem;}
+
+.aui-checkbox-name{height:1.05rem;line-height: 1.05rem;  }
+.aui-checkbox{width:1.05rem;height:1.05rem;}
+.aui-checkbox:checked,
+.aui-checkbox.aui-checked {
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    text-align: center;
+}
+.aui-checkbox:checked:before, .aui-checkbox.aui-checked:before {
+    color: #ff5a37;
+    left:0.1rem;
+    top:-0.1rem;
+    font-size:0.75rem;
+    font-weight: bold;
+}
+.aui-checkbox:checked:after,
+.aui-checkbox.aui-checked:after {
+    color: #ff5a37;
+    left:0.1rem;
+    top:-0.1rem;
+    font-size:0.75rem;
+    font-weight: bold;
+}
